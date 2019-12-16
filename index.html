@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Document</title>
+
+<script>
+
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+
+</script>
+
+
+</head>
+<body>
+
+    <div id="mtSidenav" class="sidenav" style="width: 0px">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+        <a href="#">Inicio</a>
+        <a href="#">¿Qué es la RA?</a>
+        <a href="#">Un poco de historia</a>
+        <a href="#">Realidad Virtual vs RA</a>
+        <a href="#">Niveles de RA</a>
+    </div>
+
+
+<div id="r1">
+
+        <header>
+            <img id="r2" src="img/header.jpg" alt="imagen header">
+            <h2 id="titulo">Realidad aumentada</h2>
+        </header>
+        <nav>
+
+            <span id="mySidenav" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+
+        </nav>
+
+        <main>
+
+           <h2>Realidad Aumentada: el futuro ya está aquí</h2>
+
+           <p>
+                La Realidad Aumentada es una tecnología emergente que permite disfrutar de experiencias en las que se añade contenido digital a nuestro mundo real, aumentando la percepción que tenemos del mismo. </p> 
+                <p> Mediante esta tecnología, se puede incorporar contenido en forma de texto, imagen, audio, vídeo, modelos 3D e incluso información olfativa y táctil en la percepción del mundo real del usuario. Estos “aumentos” de la realidad pueden ayudar a mejorar el conocimiento del individuo y permitirle un mayor grado de comprensión lo que sucede a su alrededor.</p>
+            </p>
+
+                <img src="img/mano.jpg">
+                <img src="img/medicina.jpg">
+                <img src="img/reno.jpg">
+                <img src="img/mercado.jpg">
+
+            <p>
+                Ronald Azuma, investigador del Nokia Research Center Hollywood, de California, ofreció una definición. Un sistema de Realidad Aumentada es aquel que cumple las siguientes características:
+            </p>
+                <ul id="lista">
+                    <li>Combina elementos reales y virtuales</li>
+                    <li>Es interactiva en tiempo real</li>
+                    <li>Se registra en 3D</li>
+                </ul>
+        </main>
+
+        <footer>
+            <p>Página realizada por: Rubén Galán Pérez <br> Examen de Lenguaje de Marcas - Diciembre 2019</p>
+        </footer> 
+
+</div>
+
+
+</body>
+</html>
